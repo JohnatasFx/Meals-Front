@@ -38,7 +38,7 @@ button{
   height: 40px;
   border: none;
   border-radius: 25px 25px 25px 25px;
-  background-color: #ff6a28;
+  background-color: #f58723;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -66,8 +66,12 @@ image{
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: white;
+  background-color: #f1ecdf;
   max-width: 100%;
+}
+
+#imagem img {
+  mask-image: linear-gradient(to bottom, #f1ecdf 80%, rgba(241, 236, 223, 0.01) 95%);
 }
 
 .title-content {
@@ -100,13 +104,14 @@ image{
 
 .info-tag p{
   padding-left: 5px;
-  color: grey;
+  color: #c7ba99;
   font-style: italic;
 }
 
 #title-meal h2 {
   font-weight: 700;
   font-size: 35px;
+  color: #000000;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   padding-bottom: 10px; /* Adicionando espaço abaixo do h2 */
   justify-content: center;
@@ -121,9 +126,9 @@ image{
 #info-meal h4 {
   color: white;
   border: black;
-  background-color: grey;
+  background-color: #c7ba99;
   border-radius: 25px 25px 25px 25px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   font-size: 20px;
   padding: 5px 5px;
   justify-content: center;
@@ -175,7 +180,7 @@ image{
 #ingredientes-title {
   width: auto;
   border: 1px solid #dedede;
-  background-color: #f3f3f3;
+  background-color: #c7ba99;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   font-size: 100%;
   padding: 10px 0px 10px 10px;
@@ -191,12 +196,13 @@ image{
 #imagem img {
   width: 90%;
   border-radius: 25px 25px 25px 25px;
+  border: 2px solid #f58723;
 }
 
 #texto h2 {
   width: auto;
   border: 1px solid #dedede;
-  background-color: #f3f3f3;
+  background-color: #c7ba99;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   font-size: 100%;
   padding: 10px;
@@ -229,8 +235,8 @@ image{
   #links h2 {
     width: auto;
     border: 1px solid #dedede;
-    background-color: #f3f3f3;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    background-color: #c7ba99;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     font-size: 100%;
     padding: 10px;
     font-weight: bold;
