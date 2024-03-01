@@ -1,0 +1,261 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  width: auto;
+  overflow-x: hidden;
+}
+
+#header .site-logo {
+  width: 20%;
+}
+
+.site-logo img {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+}
+
+#header .action {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.action button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #ff6a28;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button img{
+    width: 19px;
+    margin-right: 5px;
+    filter: invert(100%);
+}
+
+image{
+    filter: invert(100%);
+}
+
+#buttonRegenerate:hover {
+  background-color: #97560a;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  max-width: 100%;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+}
+
+#title-meal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+#info-meal {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.info-category{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.info-tag p{
+  padding-left: 5px;
+  color: grey;
+  font-style: italic;
+}
+
+#title-meal h2 {
+  font-weight: 700;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px; /* Adicionando espaço abaixo do h2 */
+  justify-content: center;
+}
+
+#info-meal h3 {
+  font-size: 25px;
+  padding-bottom: 8px; /* Adicionando espaço abaixo do h3 */
+  justify-content: center;
+}
+
+#info-meal h4 {
+  color: white;
+  border: black;
+  background-color: grey;
+  border-radius: 25px 25px 25px 25px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  padding: 5px 5px;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+#info-meal p {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 10px;
+  margin-left: auto;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.receita {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif; /* Escolha uma fonte adequada */
+  font-size: 12px; /* Tamanho da fonte */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  color: #333; /* Cor do texto */
+}
+
+.receita #ingredientes-title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.receita #ingrediente-lista{
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+}
+
+#ingredientes-title {
+  width: auto;
+  border: 1px solid #dedede;
+  background-color: #f3f3f3;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 100%;
+  padding: 10px 0px 10px 10px;
+  font-weight: bold;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+#imagem {
+  width: 100%; /* Ajustando a largura da div imagem para ocupar todo o espaço da div receita */
+}
+
+#imagem img {
+  width: 90%;
+  border-radius: 25px 25px 25px 25px;
+}
+
+#texto h2 {
+  width: auto;
+  border: 1px solid #dedede;
+  background-color: #f3f3f3;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 100%;
+  padding: 10px;
+  font-weight: bold;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+#texto {
+  font-family: Arial, sans-serif; /* Escolha uma fonte adequada */
+  font-size: 12px; /* Tamanho da fonte */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  color: #333; /* Cor do texto */
+  padding-bottom: 10px;
+}
+
+.link-content{
+    width: 100%;
+}
+#links {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    padding-bottom: 10px;
+  }
+  
+  #links h2 {
+    width: auto;
+    border: 1px solid #dedede;
+    background-color: #f3f3f3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    font-size: 100%;
+    padding: 10px;
+    font-weight: bold;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  #links p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    padding-bottom: 10px;
+  }
+  
+  #links a {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  #links iframe {
+    /* Estilos apenas para o iframe */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding-bottom: 10px;
+  }
